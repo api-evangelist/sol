@@ -1,8 +1,24 @@
 aid: sol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sol.png
 name: Sol
-description: 'Sol is a company surfaced as a portfolio company of initialized-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sol Reader is a wearable e-reader — marketed as the world''s first wearable e-reader
+  — built by Sol and backed by Initialized Capital. The device is a lightweight (104g) headset with dual
+  1.3" 271ppi side-lit E Ink displays, adjustable diopter optics and IPD, a handheld remote, and 25+ hours
+  of battery for a distraction-free reading experience. It reads a connected Kindle library and DRM-free
+  EPUB uploads, offers the Sol Store with over one million titles, plus AI question-answering and an
+  AutoPilot speed-reading mode. Sol is a consumer hardware company; it publishes no public developer API,
+  SDK, or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/sol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Consumer Electronics
+- Hardware
+- E-Reader
+- Wearables
+- Reading
+- Books
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sol-domain-security.yml
 - type: Website
   url: https://solreader.com/
+- type: Blog
+  url: https://solreader.com/blog
+- type: Support
+  url: https://solreader.com/contact
+- type: Pricing
+  url: https://solreader.com/products/sol-reader
+- type: TermsOfService
+  url: https://solreader.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://solreader.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
